@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#6757e8">
+  <meta name="description" content="QuizFlow — создавайте и проводите интерактивные квизы в реальном времени.">
+  <title>QuizFlow — квизы в реальном времени</title>
+  <link rel="icon" href="/favicon.svg?v=2" type="image/svg+xml">
+  <link rel="preload" href="/fonts/Roboto.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/styles.css?v=3">
+</head>
+<body>
+  <a class="skip-link" href="#app">Перейти к содержимому</a>
+  <div id="app" aria-live="polite">
+    <div class="boot-screen">
+      <div class="brand-mark brand-mark--large" aria-hidden="true">Q</div>
+      <div class="loader" aria-label="Загрузка"></div>
+    </div>
+  </div>
+  <div id="toast-root" class="toast-root" aria-live="assertive"></div>
+  <div id="modal-root"></div>
+  <script src="/js/core.js?v=1" defer></script>
+  <script src="/js/views.js?v=1" defer></script>
+  <script src="/js/app.js?v=1" defer></script>
+</body>
+</html>

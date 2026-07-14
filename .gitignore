@@ -1,0 +1,16 @@
+data/database.json
+data/database.json.tmp
+node_modules/
+.tools/
+node-v*-win-x64.zip
+SHASUMS256-v*.txt
+.DS_Store
+*.log
+
+# Материалы для сдачи, не нужные для работы приложения
+/PROJECT_REPORT.md
+/mockups.html
+/presentation.html
+/*.pdf
+/test/
+/start-local.ps1
